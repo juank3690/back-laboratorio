@@ -16,7 +16,7 @@ POST http://localhost:1234/cliente
 Content-Type: application/json
 
 {
-  "usuario": "newuser",
+  "usuario": "camilo",
   "nombre":"nombre culero",
   "contraseña": "password123",
   "imagen": "https://example.com/image.jpg",
@@ -31,4 +31,36 @@ Content-Type: application/json
     {
     }
   ]
+}
+
+### agregar historial a cliente
+
+POST http://localhost:1234/cliente/historial
+Content-Type: application/json
+
+{
+  "usuario": "juank",
+  "musculo": "espalda",
+  "tiempo": 70,
+  "fecha": "14/09/2024"
+}
+
+###eliminar evento
+
+DELETE http://localhost:1234/cliente/evento
+Content-Type: application/json
+
+{
+  "usuario": "juank",
+  "evento": "defensa persona"
+}
+
+
+###cambiar dieta
+PATCH http://localhost:1234/cliente/dieta
+Content-Type: application/json
+
+{
+  "usuario": "juank",
+  "dieta": "Desayuno: avena y fruta, almuerzo: pollo y arroz, cena: ensalada y pescado"
 }

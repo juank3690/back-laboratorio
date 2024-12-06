@@ -13,13 +13,18 @@
         "historial":[{
             "musculo":"pecho",
             "tiempo":60,
-            "feha":"12/09/2024"
+            "fecha":"12/09/2024"
         }],
         "reservas":[{
             "evento":"baile salsa",
             "imagen":"https://s2.ppllstatics.com/canarias7/www/multimedia/202208/13/media/cortadas/Bailarines%20durante%20la%20pasada%20edicion%20del%20Canarias%20Open%20Salsa%20(2)-kdL-U170972954962pKB-1248x770@Canarias7.jpg",
             "fecha":"06/12/2024"
-            }]
+            },{
+                "evento":"defensa persona",
+                "imagen":"https://www.fedamc.es/wp-content/uploads/2020/12/defensa-personal.jpg",
+                "fecha":"08/12/2024"
+                }
+        ]
     }
 ],
 [{
