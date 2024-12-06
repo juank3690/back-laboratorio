@@ -1,0 +1,42 @@
+
+[[
+    {
+        "usuario":"juank",
+        "nombre":"juan carlos gomez",
+        "id":"241bf55d-b649-4109-af7c-0e6890ded3fc",
+        "contraseña":"juank12345",
+        "imagen":"https://i.pinimg.com/736x/53/c0/49/53c049707cd0517e4afe3ce14fce1d9f.jpg",
+        "tipo":1,
+        "nivel":0,
+        "meta":"bajar peso",
+        "dieta":"para el desalluno guevos y pan almuerzo agua y pa la comido chuñpe ambre",
+        "historial":[{
+            "musculo":"pecho",
+            "tiempo":60,
+            "feha":"12/09/2024"
+        }],
+        "reservas":[{
+            "evento":"baile salsa",
+            "imagen":"https://s2.ppllstatics.com/canarias7/www/multimedia/202208/13/media/cortadas/Bailarines%20durante%20la%20pasada%20edicion%20del%20Canarias%20Open%20Salsa%20(2)-kdL-U170972954962pKB-1248x770@Canarias7.jpg",
+            "fecha":"06/12/2024"
+            }]
+    }
+],
+[{
+    "usuario":"carlos",
+    "nombre":"emanuel muñoz",
+    "id":"b6e03689-cccd-478e-8565-d92f40813b13",
+    "contraseña":"carlos12345",
+    "imagen":"https://i.pinimg.com/736x/53/c0/49/53c049707cd0517e4afe3ce14fce1d9f.jpg",
+    "tipo":2
+}],
+[{
+    "usuario":"admin",
+    "nombre":"cristian montoya",
+    "id":"b6e03689-cccd-478e-8565-d92f40813b25",
+    "contraseña":"carloss12345",
+    "imagen":"https://i.pinimg.com/736x/53/c0/49/53c049707cd0517e4afe3ce14fce1d9f.jpg",
+    "tipo":3
+}]
+]
+

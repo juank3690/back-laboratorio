@@ -1,0 +1,34 @@
+###api.http
+
+
+###recuperar todos los usuarios
+GET http://localhost:1234/datos
+
+###recuperar todos los clientes
+GET http://localhost:1234/datos/clientes
+
+###recuperar todos los profesores
+GET http://localhost:1234/datos/profesores
+
+###agragar clientes
+
+POST http://localhost:1234/cliente
+Content-Type: application/json
+
+{
+  "usuario": "newuser",
+  "nombre":"nombre culero",
+  "contraseña": "password123",
+  "imagen": "https://example.com/image.jpg",
+  "tipo": 1,
+  "nivel": 0,
+  "meta": "bajar peso",
+  "historial": [
+    {
+    }
+  ],
+  "reservas": [
+    {
+    }
+  ]
+}
